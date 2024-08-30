@@ -1,0 +1,19 @@
+#steps to follow in aws console
+STEP-1 :
+• Design your own personal website.
+STEP-2 :
+• Go to AWS Management console and open the Amazon S3 console.
+• Click "CREATE BUCKET" and enter unique name for your bucket.
+• In the "PROPERTIES" section,enable static website hosting.
+• upload your website files to the bucket.
+•set the bucket permissions to allow public access.
+STEP-3 :
+• Now copy the URL of your file and browse it to check it is live or not.
+• If the access get denied,Go to the "PERMISSIONS" uncheck the block all public access.
+• Click on save changes and type confirm.
+• Then Go to the objects and open your files.
+• click on actions and select "MANAGE PUBLIC USING ACL".
+• if its disabled,Go to "PERMISSIONS" click on "OBJECT OWNERSHIP" ENABLE"ACLs ENABLED",Click on save changes.
+• Now select all the all Objects,click on "ACTIONS"then select "MANAGE PUBLIC USING ACL".
+STEP-4 :
+• Browse the URL,now your able to access the website which is hosted using AMAZON S3.
